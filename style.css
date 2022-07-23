@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(249, 231, 213);
+    align-items: center;
+    justify-content: center;
+}
+.headertop{
+    background-color: rgba(100, 237, 237, 0.215);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 90px;
+}
+.fontfam{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-align: left;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px;
+}
+.item{
+    background-color: rgb(243, 216, 209);
+    margin: 50px;
+    padding: 90px;
+    padding-bottom: 0px;
+    width: 770px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagestyle :hover img{
+    transform: scale(1.2);
+}
+.nlink{
+    color: crimson;
+    text-align: right;
+}
+.nlink :visited{
+    color: crimson;
+    text-decoration: none;
+}
+.nlink :hover{
+    color: lightseagreen;
+}
