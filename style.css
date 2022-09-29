@@ -2,12 +2,21 @@ body{
     background-color: rgb(249, 231, 213);
     align-items: center;
     justify-content: center;
+    border: black;
+    border-width: 10px;
+    border-radius: 60px;
+    border-style: outset;
 }
 .headertop{
     background-color: rgba(100, 237, 237, 0.215);
     padding: 10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
 }
 h1{
+    background: linear-gradient(69.87deg, #c05eb1 6.21%, #6c37ac 21.77%, #ce2560 32.96%, #9f1696 52.53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
     font-size: 90px;
