@@ -2,10 +2,12 @@ body{
     background-color: rgb(249, 231, 213);
     align-items: center;
     justify-content: center;
-    border: black;
-    border-width: 10px;
+    border-color: rgb(161, 22, 106);
+    border-width: 4px;
     border-radius: 60px;
     border-style: outset;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 .headertop{
     background-color: rgba(100, 237, 237, 0.215);
@@ -19,10 +21,12 @@ h1{
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
+    src: url(fonts/FrederickatheGreat-Regular)
     font-size: 90px;
 }
 .fontfam{
     font-family: 'Amatic SC', cursive;
+    src: url(fonts/AmaticSC-Bold)
     font-weight: 1000;
     font-size: xx-large;
     text-align: left;
@@ -46,14 +50,9 @@ h1{
 .imagestyle :hover img{
     transform: scale(1.2);
 }
-.nlink{
-    color: crimson;
+.nextpage{
     text-align: right;
 }
-.nlink :visited{
-    color: crimson;
-    text-decoration: none;
-}
-.nlink :hover{
-    color: lightseagreen;
+.prevpage{
+    text-align: left;
 }
